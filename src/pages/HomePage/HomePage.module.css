@@ -1,0 +1,115 @@
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 86, 179, 0.7)), url('https://via.placeholder.com/1920x600/CCCCCC/FFFFFF?Text=Dental+Clinic+Banner') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroCtaButton {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+.heroCtaButton:hover {
+  background-color: #1e7e34;
+  border-color: #1e7e34;
+}
+
+
+/* Intro Section */
+.introSection {
+  background-color: var(--light-color);
+}
+
+.introSection h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.introSection p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Services Overview */
+.servicesOverview {
+  padding-bottom: 30px; /* Reduce bottom padding if CTA follows */
+}
+
+.servicesOverview h2 {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.servicesGrid {
+  /* Uses global grid-container styles */
+}
+
+.serviceCardButton {
+  margin-top: auto; /* Pushes button to bottom of card body */
+  display: block; /* Make it full width in card */
+  text-align: center;
+}
+
+/* CTA Section */
+.ctaSection {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.ctaSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.ctaSection p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.ctaSection .btn {
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.ctaSection .btn:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* FAQ Section */
+.faqSection h2 {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+  .servicesGrid {
+    grid-template-columns: 1fr; /* Stack cards on smaller screens */
+  }
+}

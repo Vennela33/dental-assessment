@@ -1,0 +1,86 @@
+.contactSection h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.contactLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.contactFormContainer h3,
+.contactInfoContainer h3 {
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  box-sizing: border-box; /* Important for 100% width */
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.errorMessage {
+  color: var(--danger-color);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.successMessage {
+  color: var(--success-color);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #e6ffed;
+  border: 1px solid var(--success-color);
+  border-radius: var(--border-radius);
+}
+
+.contactInfoContainer p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+.contactInfoContainer strong {
+  color: var(--dark-color);
+}
+
+.mapContainer {
+  margin-top: 2rem;
+}
+.mapContainer h4 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+.mapContainer iframe {
+  border-radius: var(--border-radius);
+}
+
+
+@media (max-width: 992px) {
+  .contactLayout {
+    grid-template-columns: 1fr; /* Stack form and info on smaller screens */
+  }
+  .contactInfoContainer {
+    margin-top: 2rem; /* Add space when stacked */
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: auto; /* Pushes footer to bottom in flex layout */
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: var(--light-color);
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
