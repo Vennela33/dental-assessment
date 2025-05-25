@@ -92,7 +92,7 @@ This will create an optimized `build` folder in the project directory.
 ## Live Demo
 
 (Optional but preferred)
-A live demo of this project can be found here: [Link to your live demo - e.g., Netlify, Vercel, GitHub Pages]
+A live demo of this project can be found here: [(https://relaxdental.netlify.app/)]
 
 ---
 
